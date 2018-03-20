@@ -23,7 +23,7 @@
           <td>${shop.id}</td>
           <td>${shop.name}</td>
           <td>
-              //<input value="$(shop.selected)" type="checkbox"/>
+                //<input value="$(shop.selected)" type="checkbox"/>
                 ${shop.selected}
           </td>
         </tr>
