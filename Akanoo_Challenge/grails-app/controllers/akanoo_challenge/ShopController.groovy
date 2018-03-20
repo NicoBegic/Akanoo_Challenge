@@ -3,10 +3,10 @@ package akanoo_challenge
 class ShopController {
 
     def index(){
-        redirect (action: "shopListTest")
+        redirect (action: "shopList")
     }
 
-    def shopListTest(){
+    def shopList(){
         //Directs to the view shopList
         def shops = Shop.list()
         [shops:shops]
